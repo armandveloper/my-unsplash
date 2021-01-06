@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="description"
+			content="My Unsplash: A Simple Clone of Unsplash"
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My Unsplash</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__inner">
+					<a href="/" class="logo__box" aria-label="Home">
+						<img
+							src="img/my_unsplash_logo.svg"
+							alt="My Unsplash"
+							class="logo"
+						/>
+					</a>
+					<button class="btn btn--green" id="btn-add-photo">
+						Add a photo
+					</button>
+				</div>
+			</div>
+		</header>
+		<main class="gallery">
+			<div class="container">
+				<div class="gallery__grid" id="gallery"></div>
+			</div>
+		</main>
+		<div class="overlay overlay--abs-center" id="overlay">
+			<div class="spinner"></div>
+		</div>
+		<script src="js/app.js"></script>
+	</body>
+</html>
